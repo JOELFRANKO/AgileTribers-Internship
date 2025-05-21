@@ -36,6 +36,24 @@
             border: 2px solid black;
             border-collapse: collapse;
         }
+
+        .image1, .image1 img{
+            width: 50%;
+        }
+
+        .image2, .image2 img{
+            width: 50%;
+        }
+
+        .table_15 table, .table_15 th, .table_15 td{
+            border: 1px solid black;
+        }
+
+        .table_15{
+            width:20%;
+            height: 200px;
+            border: 3px solid black;
+        }
     </style>
 
     <body>
@@ -269,11 +287,164 @@
             <hr width="100%" size="1" color="black">
            <form>
                 <label>Name:</label>
-                <input type="text" name="name" ><br>
+                <input type="text" name="name" ><br><br>
                 <label>Email:</label>
-                <input type="text" name="email" ><br>
+                <input type="text" name="email" ><br><br>
                 <button>Submit</button>
            </form>
+
+           <!-- Radio Buttons in Form -->
+            <h1>Ex 10 : Radio Buttons in Form</h1>
+            <h2> Please Fill and Submit Form:</h2>
+            <hr width="100%" size="1" color="black">
+           <form>
+                <label>Name:</label>
+                <input type="text" name="name" ><br><br>
+                <label>Email:</label>
+                <input type="text" name="email" >
+                <br><br>
+                <label>Select A color you like:</label>
+                <br><br>
+                <label><input type="radio">Red</label><br><br>
+                <label><input type="radio">Green</label><br><br>
+                <label><input type="radio">Blue</label><br><br>
+                <button>Submit</button>
+           </form>
+
+           <!-- Dropdown Select -->
+           <h1>Ex 11 : Dropdown Select</h1>
+           <hr width="100%" size="1" color="black">
+                <label>Name:</label>
+                <input type="text" name="name" ><br><br>
+                <label>Email:</label>
+                <input type="text" name="email" >
+                <br><br>
+                <label>Select A color you like:</label>
+                <br><br>
+                <label><input type="radio">Red</label><br><br>
+                <label><input type="radio">Green</label><br><br>
+                <label><input type="radio">Blue</label><br><br>
+                <label>Select your favourite color:</label>
+                <select>
+                    <option>Red</option>
+                    <option>Green</option>
+                    <option>Blue</option>
+                    <option>Yellow</option>
+                </select><br><br>
+                <button>Submit</button>
+            </form>
+
+        <!-- Checkboxes in Form -->
+        <h1>Ex 12 : Checkboxes in Form</h1>
+        <hr width="100%" size="1" color="black">
+        <label>Name:</label>
+        <input type="text" name="name" ><br><br>
+        <label>Email:</label>
+        <input type="text" name="email" >
+        <br><br>
+        <label>Select A color you like:</label>
+        <br><br>
+        <label><input type="radio">Red</label><br><br>
+        <label><input type="radio">Green</label><br><br>
+        <label><input type="radio">Blue</label><br><br>
+        <label>Select your favourite color:</label>
+        <select>
+            <option>Red</option>
+            <option>Green</option>
+            <option>Blue</option>
+            <option>Yellow</option>
+        </select><br><br>
+        <label>Choose your skill level:</label><br><br>
+        <label> <input type="checkbox">Beginner</label><br><br>
+        <label> <input type="checkbox">Intermediate</label><br><br>
+        <label> <input type="checkbox">Advanced</label>
+        <br><br>
+        <button>Submit</button>
+    </form>
+
+    <!-- Image Showcasing -->
+     <h1>Ex 13 : Image Showcasing </h1>
+     <h2>Image Showcase using Div tag</h2>
+     <hr width="100%" size="1px" color="black">
+     <div class="image1">
+        <p>div-1</p>
+        <h3>Beautiful Sunset</h3>
+        <img src="/IMAGES/71aSfryYZmS._AC_UF1000,1000_QL80_.jpg">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor culpa dolores nemo consequatur, explicabo cum, doloremque ipsa ad recusandae natus iusto adipisci dolore magni eaque? Eos quae amet alias ab. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid, esse corporis! Dolor, quia eaque ipsa nostrum similique accusantium temporibus facilis eligendi tenetur fuga numquam ratione vitae error non sequi dicta.</p>
+     </div> 
+     <hr width="50%" size="1px" color="black" align="left">
+     <div class="image2">
+        <p>div-2</p>
+        <h3>Beautiful Sunset</h3>
+        <img src="/IMAGES/legacy_products_ART_3319_71086__21063.jpg">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo porro maxime rem. Ex commodi minima natus iusto adipisci quos ea nostrum nulla, deserunt perferendis tempora neque rem esse culpa provident. Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, vitae suscipit explicabo molestiae dolores omnis eaque ratione fugiat, ipsum consequatur neque tempora autem at eligendi reiciendis! Quod temporibus minus illo.</p>
+     </div> 
+
+     <!-- Embedding Videos -->
+      <h1>Ex 14 : Embedding Videos</h1>
+      <h2>using Videos in HTML</h2>
+      <hr width="100%" size="1px" color="black">
+      <iframe src="https://github.com/JOELFRANKO/AgileTribers-Internship.com" title="sample_Iframe" "></iframe>
+
+      <!-- Advanced Table with Summary -->
+        <h1>Ex 15 : Advanced Table with Summary</h1>
+        <p>Student Grading table with average and minimum scores.</p>
+        <div class="table_15">
+            <table>
+                <caption>HTML Table Example</caption>
+                <tr>
+                    <th colspan="2">Student name</th>
+                    <th colspan="3">Labs</th>
+                    <th rowspan="2">Avg</th>
+                </tr>
+                <tr>
+                    <th>First</th>
+                    <th>Last</th>
+                    <th>Lab1</th>
+                    <th>Lab2</th>
+                    <th>Lab3</th>
+                </tr>
+                <tr>
+                    <td>Sol</td>
+                    <td>Rosemberg</td>
+                    <td>100</td>
+                    <td>100</td>
+                    <td>100</td>
+                    <td>100.0</td>
+                </tr>
+                <tr>
+                    <td>frank</td>
+                    <td>Rizzo</td>
+                    <td>50</td>
+                    <td>60</td>
+                    <td>90</td>
+                    <td>66.6</td>
+                </tr>
+                <tr>
+                    <td>Ali</td>
+                    <td>Kam</td>
+                    <td>90</td>
+                    <td>80</td>
+                    <td>60</td>
+                    <td>76.6</td>
+                </tr>
+                <tr>
+                    <th rowspan="2">Summary</th>
+                    <th>Avg</th>
+                    <td>80.0</td>
+                    <td>80.0</td>
+                    <td>83.3</td>
+                    <td>81.1</td>
+                </tr>
+                <tr>
+                    <th>Min</th>
+                    <td>50</td>
+                    <td>60</td>
+                    <td>60</td>
+                    <td>66.6</td>
+                </tr>
+            </table>
+        </div>
     </body>
 </html>
 
