@@ -33,12 +33,12 @@ body {
     padding-left: 100px;
 }
 
-.h2_2, .h3_2, .h3_2_center{
+.h2_2, .h3_2, .h3_2_center, .h1_3, .h2_3{
     text-align: center;
     padding: 20px;
 }
 
-.h3_2_center{
+.h3_2_center, .h3_3{
     display: flex;
     align-items: center;
     text-align: center;
@@ -46,7 +46,7 @@ body {
 }
 
 .h3_2_center::before,
-.h3_2_center::after{
+.h3_2_center::after, .h3_3::before, .h3_3::after{
     content: '';
     flex: 2;
     border-bottom: 2px solid black;
@@ -80,4 +80,6 @@ body {
 .form_3{
     
     text-align: center;
+    line-height: 2;
 }
+
