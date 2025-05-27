@@ -33,7 +33,7 @@ body {
     padding-left: 100px;
 }
 
-.h2_2, .h3_2, .h3_2_center, .h1_3, .h2_3{
+.h2_2, .h3_2, .h3_2_center, .h2_3{
     text-align: center;
     padding: 20px;
 }
@@ -83,3 +83,15 @@ body {
     line-height: 2;
 }
 
+.contact_us{
+    text-align: center;
+    line-height: 2;
+}
+
+.contact_us img{
+    width:150px;
+    height: 150px;
+    display: inline;
+    inline-size: 370px;
+    padding-inline: 70px; 
+}
