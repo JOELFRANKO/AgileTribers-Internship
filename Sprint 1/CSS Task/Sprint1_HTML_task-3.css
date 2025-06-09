@@ -145,3 +145,38 @@ body {
 .right_5 h4{
    margin-top:0;
 }
+
+.Ex_6{
+    background-color: rgb(77, 156, 239);
+    background-position: center;
+    background-size: contain;
+    padding-top: 1px;
+}
+
+.web_6{
+    margin:20px 50px 0px 50px;
+    background-color: azure;
+    padding: 15px;
+    padding:50px 50px 50px 50px;
+    border-radius: 10px;
+    border:2px dotted #332f2f;
+    background-position: center;
+    background-size: contain;
+}
+
+.web_6 header{
+    display: block;
+   position: static;
+    padding: 10px 10px 10px 10px;
+    overflow: hidden;
+    
+}
+
+.web_6 aside {
+    padding-left: 100px;
+}
+.web_6 aside ul li{
+    display:inline-block;
+    position: relative;
+    
+}
