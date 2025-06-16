@@ -146,37 +146,99 @@ body {
    margin-top:0;
 }
 
+/* Exercise 6 */
+
 .Ex_6{
     background-color: rgb(77, 156, 239);
     background-position: center;
     background-size: contain;
-    padding-top: 1px;
+    padding-top: 20px;
 }
 
 .web_6{
-    margin:20px 50px 0px 50px;
-    background-color: azure;
-    padding: 15px;
-    padding:50px 50px 50px 50px;
+    max-width: 95%;
+    margin:auto;
+    background-color: white;
+    border-color: white;
     border-radius: 10px;
-    border:2px dotted #332f2f;
-    background-position: center;
-    background-size: contain;
+
+    
+
 }
 
-.web_6 header{
+.header_6 {
+    padding: 40px 50px 40px 50px;
+    display: flex;
+    position: static;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_6 h1{
+    margin: 0;
+}
+
+.header_6 nav a{
+    text-decoration: underline;
+    color: #0000ee;
+    margin-left: 5px;
+}
+
+
+
+.img_6 img{
+    width: 100%;
     display: block;
-   position: static;
-    padding: 10px 10px 10px 10px;
-    overflow: hidden;
+    height: fit-content;
+}
+
+.body_6{
+    display: block;
+    padding: 20px;
     
 }
 
-.web_6 aside {
-    padding-left: 100px;
+.blog-post{
+    margin-bottom: 30px;
 }
-.web_6 aside ul li{
-    display:inline-block;
-    position: relative;
-    
+
+.blog-post h2 a{
+    color: #4b0082;
+    text-decoration: underline;
+}
+
+.blog-post p{
+    color: #333;
+}
+
+.side_box_6{
+    margin: 20px 0;
+}
+
+.links-box{
+    background-color: #ffdd66;
+    padding: 10px;
+    border: 2px solid red;
+    max-width: 200px;
+}
+
+.links-box h3{
+    border-color: red;
+    color: white;
+    padding: 5px;
+    margin: -10px -10px -10px -10px ;
+}
+
+.links-box ul{
+    list-style-type: none;
+    padding: 0cap;
+}
+
+.links-box ul li{
+    margin-bottom: 5px;
+}
+
+.links-box ul li a{
+    color: #0000ee;
+    text-decoration: underline;
 }
